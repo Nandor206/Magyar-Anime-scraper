@@ -5,6 +5,9 @@ Ez egy **bemutató célú** Rust program, amely megmutatja, mennyire **egyszerű
 > ⚠️ **Jogi nyilatkozat:** Ez a kód *csak oktatási céllal* készült. Az AnimeDrive nem biztos, hogy legálisan tesz közzé tartalmakat, és a scraping technikák használata a felhasználási feltételek megsértését jelentheti.  
 > A kódot csak saját felelősségre használd!
 
+Ha nagyon akarod ezt kombinálod az [anilist API](https://docs.anilist.co)-jával és van egy autómatikus anime szerző programod.  
+Az API lehetővé teszi a keresést, mal id-vá konvertálást, így már csak egy epizód szám kell és megvan a link.
+
 ---
 
 ## 🧠 Mit csinál ez a program?
@@ -116,7 +119,7 @@ let re = Regex::new(r#"src:\s*'([^']+)'.*?size:\s*(\d+)"#).unwrap();
 
 ## ❗ Fontos megjegyzések
 
-- A videoplayer oldal nagyon lassan tölt be, így a HTTP kliens timeoutja 2 percre van állítva.
+- A videoplayer oldal néha (főleg éjszaka) lassan tölt be, így a HTTP kliens timeoutja 2 percre van állítva.
 - Ne küldj túl sok lekérést egyszerre, mert az oldal letilthatja az IP címedet.
 
 ---
