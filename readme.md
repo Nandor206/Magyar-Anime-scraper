@@ -10,6 +10,8 @@ Az API lehetővé teszi a keresést, mal id-vá konvertálást, így már csak e
 
 ---
 
+# !!! Nem működik !!!
+
 ## 🧠 Mit csinál ez a program?
 
 - Egy adott anime (MyAnimeList ID alapján) és epizód szám alapján:
