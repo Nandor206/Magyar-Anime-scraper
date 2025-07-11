@@ -1,3 +1,4 @@
+# !!! Nem működik !!!
 # AnimeDrive Scraper – Videó link kinyerő
 
 Ez egy **bemutató célú** Rust program, amely megmutatja, mennyire **egyszerű lehet egy weboldalt scrappelni**, jelen esetben az [AnimeDrive.hu](https://animedrive.hu/) oldalt.
@@ -10,7 +11,6 @@ Az API lehetővé teszi a keresést, mal id-vá konvertálást, így már csak e
 
 ---
 
-# !!! Nem működik !!!
 
 ## 🧠 Mit csinál ez a program?
 
